@@ -3,10 +3,45 @@
   <head>
     <meta charset="UTF-8">
     <title>Portifólio</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      #FotoCapa{
+        width:20%;
+        max-width: 550px;
+        border-radius: 50%;
+        margin-top: -15%;
+        margin-left: 30px;
+        border: 5px solid white;
+
+      }
+
+      h1, h3, ul, p {
+
+        margin-left: 3%;
+        line-height: 150%;
+      }
+
+      .Icone{
+        width: 50px;
+        max-width: 550px;
+        margin-left: 30px;
+        margin-top: 5%;
+      }
+
+      ul {
+        margin-left: 5%;
+
+      }
+
+    </style>
   </head>
   <body>
     <img width="100%" alt="Foto gráfico mercado financeiro" src="./imagens/fundoAzul.jpeg">
-    <img width="20%" alt="Foto do Marcelo Gomes" src="./imagens/Marcelo.jpg"> 
+    <img id="FotoCapa"  alt="Foto do Marcelo Gomes" src="./imagens/Marcelo.jpg"> 
     <h1>Marcelo Gomes de Oliveira</h1>
     <h3>Consultor em infraestrutura e tecnologia</h3>
     <h3>Belo horizone - MG</h3>
@@ -15,10 +50,11 @@
         <li><a href="#server">Conhecimento em Windows Server</a></li>
         <li><a href="#hyper">Habilidade em hyper-V</a></li>
     </ul>
-    <p id="infra">Com mais de 20 anos de experiência em tecnologia, em especial com infraestrutura e cabeamento estruturado.</p>
+    <p id="infra">Com mais de <em>20 anos</em> de experiência em tecnologia, em especial com infraestrutura e cabeamento estruturado.</p>
     <p id="server">Conehcimento e habilidade em instalação e gerenciamento de servidores Windows.</p>
     <p id="hyper">Pesquisa de desempenho em Hyper-V, VM, <strong>Amazon</strong>, Google e Azure.</p>
-    <a target="_blank" href="https://www.linkedin.com/in/marcelo-gomes-de-oliveira-a6a94366/"><img src="./imagens/logoLinkedin.png"></a>
+    <a target="_blank" href="https://www.linkedin.com/in/marcelo-gomes-de-oliveira-a6a94366/">
+    <img class="Icone" src="./imagens/logoLinkedin.png"></a>
     
   </body>
 </html>
